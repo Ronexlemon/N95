@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Name from "../components/name";
 import Portfolio from "../components/portfolio";
 import Problem from "../components/problem";
-const Home = ()=>{
+const Research = ()=>{
     return(
         <div className=" w-screen bg-black h-full min-h-screen ">
             <Navbar/>
@@ -34,4 +34,4 @@ const Home = ()=>{
         </div>
     )
 }
-export default Home;
+export default Research;

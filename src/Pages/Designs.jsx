@@ -3,12 +3,17 @@ import Navbar from "../components/Navbar";
 import Name from "../components/name";
 import Portfolio from "../components/portfolio";
 import Problem from "../components/problem";
-const Home = ()=>{
+import { Document,Page } from "react-pdf";
+import storyboard from "../assets/designs/Storyboard.pdf";
+const Designs = ()=>{
     return(
         <div className=" w-screen bg-black h-full min-h-screen ">
             <Navbar/>
             <div className="h-screen w-full flex flex-col bg-hci bg-cover bg-focus  gap-8">
-            <Name/>
+            {/* <Name/> */}
+            <Document file={storyboard}>
+                <Page pageNumber={1}/>
+            </Document>
             
            
             </div>
@@ -34,4 +39,4 @@ const Home = ()=>{
         </div>
     )
 }
-export default Home;
+export default Designs;

@@ -1,6 +1,11 @@
 import React from "react";
 import ronex from "../assets/profile.jpg";
 import menjez from "../assets/menjez.jpg";
+import agai from "../assets/agai.jpg";
+import oswago from "../assets/oswago.jpg";
+import dun from "../assets/dun.jpg";
+import {AiFillGithub,AiFillTwitterCircle} from "react-icons/ai"
+
 
 const Portfolio = () => {
   return (
@@ -14,19 +19,18 @@ const Portfolio = () => {
             alt="Profile Image"
           />
 
-          <div className="text-center">
+          <div className="text-center ">
             <h2 className="text-xl font-semibold mb-2">Ronex Ondimu</h2>
             <p className="text-gray-600 text-sm mb-2">Software Engineer</p>
           </div>
 
-          <div className="mt-4">
-            <p className="text-gray-800">Job Done:</p>
-            <ul className="list-disc list-inside">
-              <li className="text-gray-600">Project A</li>
-              <li className="text-gray-600">Project B</li>
-              <li className="text-gray-600">Project C</li>
-            </ul>
-          </div>
+          <div className="mt-4 ">
+  <p className="text-gray-500">Connect:</p>
+  <div className="flex flex-col gap-4">
+    <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillGithub/></a>
+    <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillTwitterCircle/></a>
+  </div>
+</div>
         </div>
 
         {/* Card 2 */}
@@ -42,83 +46,83 @@ const Portfolio = () => {
             <p className="text-gray-600 text-sm mb-2">Software Engineer</p>
           </div>
 
-          <div className="mt-4">
-            <p className="text-gray-800">Job Done:</p>
-            <ul className="list-disc list-inside">
-              <li className="text-gray-600">Project A</li>
-              <li className="text-gray-600">Project B</li>
-              <li className="text-gray-600">Project C</li>
-            </ul>
-          </div>
+        
+          <div className="mt-4 ">
+  <p className="text-gray-500">Connect:</p>
+  <div className="flex flex-col gap-4">
+    <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillGithub/></a>
+    <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillTwitterCircle/></a>
+  </div>
+</div>
         </div>
 
         {/* Center Card */}
         <div className="rounded-lg shadow-md p-4 w-64 flex flex-col items-center">
           <img
             className="w-24 h-24 rounded-full mx-auto mb-4"
-            src={ronex}
+            src={dun}
             alt="Profile Image"
           />
 
           <div className="text-center">
             <h2 className="text-xl font-semibold mb-2">Duncan Kimutai</h2>
-            <p className="text-gray-600 text-sm mb-2">Software Engineer</p>
+            <p className="text-gray-600 text-sm mb-2">User Researcher</p>
           </div>
 
-          <div className="mt-4">
-            <p className="text-gray-800">Job Done:</p>
-            <ul className="list-disc list-inside">
-              <li className="text-gray-600">Project A</li>
-              <li className="text-gray-600">Project B</li>
-              <li className="text-gray-600">Project C</li>
-            </ul>
-          </div>
+          
+          <div className="mt-4 ">
+  <p className="text-gray-500">Connect:</p>
+  <div className="flex flex-col gap-4">
+    <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillGithub/></a>
+    <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillTwitterCircle/></a>
+  </div>
+</div>
         </div>
 
         {/* Card 4 */}
         <div className="rounded-lg shadow-md p-4 w-64">
           <img
             className="w-24 h-24 rounded-full mx-auto mb-4"
-            src={ronex}
+            src={agai}
             alt="Profile Image"
           />
 
           <div className="text-center">
             <h2 className="text-xl font-semibold mb-2">George Agai</h2>
-            <p className="text-gray-600 text-sm mb-2">Software Engineer</p>
+            <p className="text-gray-600 text-sm mb-2">Product Manager</p>
           </div>
 
-          <div className="mt-4">
-            <p className="text-gray-800">Job Done:</p>
-            <ul className="list-disc list-inside">
-              <li className="text-gray-600">Project A</li>
-              <li className="text-gray-600">Project B</li>
-              <li className="text-gray-600">Project C</li>
-            </ul>
-          </div>
+          
+          <div className="mt-4 ">
+  <p className="text-gray-500">Connect:</p>
+  <div className="flex flex-col gap-4">
+    <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillGithub/></a>
+    <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillTwitterCircle/></a>
+  </div>
+</div>
         </div>
 
         {/* Card 5 */}
         <div className="rounded-lg shadow-md p-4 w-64">
           <img
             className="w-24 h-24 rounded-full mx-auto mb-4"
-            src={ronex}
+            src={oswago}
             alt="Profile Image"
           />
 
           <div className="text-center">
             <h2 className="text-xl font-semibold mb-2">Samson Oswago</h2>
-            <p className="text-gray-600 text-sm mb-2">Software Engineer</p>
+            <p className="text-gray-600 text-sm mb-2">Designer</p>
           </div>
 
-          <div className="mt-4">
-            <p className="text-gray-800">Job Done:</p>
-            <ul className="list-disc list-inside">
-              <li className="text-gray-600">Project A</li>
-              <li className="text-gray-600">Project B</li>
-              <li className="text-gray-600">Project C</li>
-            </ul>
-          </div>
+          
+          <div className="mt-4 ">
+  <p className="text-gray-500">Connect:</p>
+  <div className="flex flex-col gap-4">
+    <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillGithub/></a>
+    <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillTwitterCircle/></a>
+  </div>
+</div>
         </div>
       </div>
     </div>

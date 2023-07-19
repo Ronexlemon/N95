@@ -9,6 +9,7 @@ export default {
       backgroundImage: {
         'hci': "url('/src/assets/comp.jpg')",
         'problem': "url('/src/assets/problem.jpg')",
+        'board': "url('/src/assets/storyboard.jpg')"
         
       }
     },

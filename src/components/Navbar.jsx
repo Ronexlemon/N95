@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Navbar = ()=>{
     const navigate = useNavigate();
     return(
-        <div className="h-16 w-full  flex justify-around items-center text-white  border-b-2 border-white">
+        <div className="h-16 w-full  flex justify-around items-center  text-white  border-b-2 border-white ">
             <div>
                 <h1>N95</h1>
             </div>

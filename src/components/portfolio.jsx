@@ -73,7 +73,7 @@ const Portfolio = () => {
           <div className="mt-4 ">
   <p className="text-gray-500">Connect:</p>
   <div className="flex flex-col gap-4">
-    <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillGithub/></a>
+    <a href="https://github.com/dancankimutai" target="blank" className="text-gray-600"><AiFillGithub/></a>
     <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillTwitterCircle/></a>
   </div>
 </div>

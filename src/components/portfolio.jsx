@@ -66,7 +66,7 @@ const Portfolio = () => {
 
           <div className="text-center">
             <h2 className="text-xl font-semibold mb-2">Duncan Kimutai</h2>
-            <p className="text-gray-600 text-sm mb-2">User Researcher</p>
+            <p className="text-gray-600 text-sm mb-2">Contextual Researcher</p>
           </div>
 
           

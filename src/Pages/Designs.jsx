@@ -8,6 +8,11 @@ import storyboard from "../assets/storyboard.jpg"
 import wireframe from "../assets/wireframe.png";
 import bizAds from "../assets/LocalBizads.svg"
 import bizaddFrame from "../assets/NairaLand.svg"
+import landingPage from "../assets/landingpage.png"
+import purpose from "../assets/purpose.png"
+import wireframe1 from "../assets/wireframe1.jpg"
+import wireframe2 from "../assets/wireframe2.jpg"
+import business from "../assets/business.png"
 
 
 const Designs = ()=>{
@@ -19,48 +24,117 @@ const Designs = ()=>{
     return(
         <div className=" w-screen bg-black h-full min-h-screen ">
             <Navbar/>
-            <div className="h-screen w-full flex flex-col  bg-cover bg-focus  gap-8">
-            <img
-            className="w-full h-full rounded-2xl mx-auto mb-4"
-            src={storyboard}
-            alt="Profile Image"
-          />
-           
-            
-           
+            <div className="h-screen w-full flex flex-row bg-problem justify-center items-center bg-cover bg-focus text-white  ">
+              
+                
+              <img
+              className="w-3/4 h-full rounded-2xl  "
+              src={storyboard}
+              alt="Profile Image"
+            />
+
+<div className="text-4xl text-orange-400" >
+              <h2>StoryBoard</h2>
             </div>
-            <div className="h-screen w-full flex flex-col bg-problem justify-center bg-cover bg-focus  gap-8">
+              
+             
+              </div>
+              <div className="h-screen w-full flex flex-row bg-problem justify-center items-center bg-cover bg-focus text-white  ">
+              
                 
-            <img
-            className="w-full h-full rounded-2xl mx-auto mb-4 mt-8"
-            src={wireframe}
-            alt="Profile Image"
-          />
-            
-           
+              <img
+              className="w-3/4 h-full rounded-2xl  "
+              src={wireframe}
+              alt="Profile Image"
+            />
+
+<div className="text-4xl text-orange-400" >
+              <h2>WireFrame 1</h2>
             </div>
-            <div className="h-screen w-full flex flex-col bg-problem justify-center bg-cover bg-focus  gap-8">
+              
+             
+              </div>
+              <div className="h-screen w-full flex flex-row bg-problem justify-center items-center bg-cover bg-focus text-white  ">
+              
                 
-                <img
-                className="w-full h-full rounded-2xl mx-auto mb-4 mt-8"
-                src={bizaddFrame}
-                alt="Profile Image"
-              />
+              <img
+              className="w-3/4 h-full rounded-2xl  "
+              src={wireframe1}
+              alt="Profile Image"
+            />
+
+<div className="text-4xl text-orange-400" >
+              <h2>Alternative</h2>
+            </div>
+              
+             
+              </div>
+              <div className="h-screen w-full flex flex-row bg-problem justify-center items-center bg-cover bg-focus text-white  ">
+              
                 
-               
-                </div>
+              <img
+              className="w-3/4 h-full rounded-2xl  "
+              src={wireframe2}
+              alt="Profile Image"
+            />
+
+<div className="text-4xl text-orange-400" >
+              <h2>Alternative</h2>
+            </div>
+              
+             
+              </div>
+
+
     
 
-            <div className="h-screen w-full flex flex-col bg-problem justify-center bg-cover bg-focus  gap-8">
+            <div className="h-screen w-full flex flex-row bg-problem justify-center items-center bg-cover bg-focus text-white  ">
+              
                 
                 <img
-                className="w-full h-full rounded-2xl mx-auto mb-4 mt-8"
-                src={bizAds}
+                className="w-3/4 h-full rounded-2xl  "
+                src={landingPage}
                 alt="Profile Image"
               />
+
+<div className="text-4xl text-orange-400" >
+                <h2>Landing Page</h2>
+              </div>
                 
                
                 </div>
+
+            <div className="h-screen w-full flex flex-row bg-problem justify-center items-center bg-cover bg-focus text-white  ">
+              
+                
+              <img
+              className="w-3/4 h-full rounded-2xl  "
+              src={purpose}
+              alt="Profile Image"
+            />
+
+<div className="text-4xl text-orange-400" >
+              <h2>Purpose Page</h2>
+            </div>
+              
+             
+              </div>
+              
+              <div className="h-screen w-full flex flex-row bg-problem justify-center items-center bg-cover bg-focus text-white  ">
+              
+                
+              <img
+              className="w-3/4 h-full rounded-2xl  "
+              src={business}
+              alt="Profile Image"
+            />
+
+<div className="text-4xl text-orange-400" >
+              <h2>Business Page</h2>
+            </div>
+              
+             
+              </div>
     
             
             {/* <Portfolio/> */}

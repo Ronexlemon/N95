@@ -8,6 +8,7 @@ import Designs from './Pages/Designs';
 import Research from './Pages/Research';
 import HomeN95 from './Pages/n95/Homen95';
 import Advertise from './Pages/n95/Advertise';
+import Details from './Pages/n95/Details';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='designs' element={<Designs/>}/>
         <Route path='research' element={<Research/>}/>
         <Route path='solution' element={<Advertise/>}/>
+        <Route path='details' element={<Details/>}/>
       </Routes>
       </BrowserRouter>
     </>

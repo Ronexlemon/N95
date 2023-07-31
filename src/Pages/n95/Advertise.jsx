@@ -1,12 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./style.css";
 import image1 from "../../assets/1.svg"
 import image2 from "../../assets/2.svg"
 import radio from "../../assets/3.svg"
 import line from "../../assets/4.svg"
 import vector from "../../assets/5.svg"
+import Details from "./Details";
+
 
 const Advertise = () => {
+    const navigate= useNavigate();
     return (
         <div class="desktop">
             <div class="div">
@@ -20,7 +24,7 @@ const Advertise = () => {
                                     <div className="group-wrapper">
                                         <div className="overlap-group-wrapper">
                                             <div className="div-wrapper">
-                                                <button>
+                                                <button onClick={()=>{navigate("/details")}} >
                                                     <div className="text-wrapper">Launch campaign</div>
                                                 </button>
                                             </div>

@@ -7,6 +7,7 @@ import Home from './Pages/Home';
 import Designs from './Pages/Designs';
 import Research from './Pages/Research';
 import HomeN95 from './Pages/n95/Homen95';
+import Advertise from './Pages/n95/Advertise';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +20,7 @@ function App() {
         <Route path='home' element={<Home/>}/>
         <Route path='designs' element={<Designs/>}/>
         <Route path='research' element={<Research/>}/>
-        <Route path='solution' element={<HomeN95/>}/>
+        <Route path='solution' element={<Advertise/>}/>
       </Routes>
       </BrowserRouter>
     </>

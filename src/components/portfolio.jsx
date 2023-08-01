@@ -25,8 +25,8 @@ const Portfolio = () => {
           </div>
 
           <div className="mt-4 ">
-  <p className="text-gray-500">Connect:</p>
-  <div className="flex flex-row gap-4">
+ 
+  <div className="flex flex-row gap-4 pl-16">
     <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillGithub/></a>
     <a href="https://ke.linkedin.com/in/ronex-ondimu" target="blank" className="text-gray-600"><AiFillLinkedin/></a>
   </div>
@@ -48,8 +48,7 @@ const Portfolio = () => {
 
         
           <div className="mt-4 ">
-  <p className="text-gray-500">Connect:</p>
-  <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-4 pl-16">
     <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillGithub/></a>
     <a href="https://ke.linkedin.com/in/james-kariuki-3983b2263" target="blank" className="text-gray-600"><AiFillLinkedin/></a>
   </div>
@@ -71,8 +70,7 @@ const Portfolio = () => {
 
           
           <div className="mt-4 ">
-  <p className="text-gray-500">Connect:</p>
-  <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-4 pl-16">
     <a href="https://github.com/dancankimutai" target="blank" className="text-gray-600"><AiFillGithub/></a>
     <a href="https://ke.linkedin.com/in/dancankimutai/" target="blank" className="text-gray-600"><AiFillLinkedin/></a>
   </div>
@@ -94,8 +92,7 @@ const Portfolio = () => {
 
           
           <div className="mt-4 ">
-  <p className="text-gray-500">Connect:</p>
-  <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-4 pl-16">
     <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillGithub/></a>
     <a href="https://ke.linkedin.com/in/george-agai-a95658256" target="blank" className="text-gray-600"><AiFillLinkedin/></a>
   </div>
@@ -117,8 +114,7 @@ const Portfolio = () => {
 
           
           <div className="mt-4 ">
-  <p className="text-gray-500">Connect:</p>
-  <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-4 pl-16">
     <a href="https://github.com/Obanda-Oswago17" target="blank" className="text-gray-600"><AiFillGithub/></a>
     <a href="https://github.com/RonexLemon" target="blank" className="text-gray-600"><AiFillLinkedin/></a>
   </div>

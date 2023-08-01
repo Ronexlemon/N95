@@ -2,8 +2,10 @@ import './home.css'
 import homepageImage from "../../assets/homepageImage.png";
 import { BsArrowUpRight } from 'react-icons/bs'
 import { BsGraphUpArrow } from 'react-icons/bs'
+import { useNavigate } from 'react-router-dom';
 
 const HomeN95 = () => {
+    const navigate = useNavigate();
     return (
         <div className=" w-screen h-full min-h-screen  " id='mainpage' style={{ display: 'flex' }}>
             <div style={{ marginRight: '60px'}}>
@@ -17,7 +19,7 @@ const HomeN95 = () => {
                 <div className="heading-div" style={{ marginLeft: '20px' }}>
                     <h1>Reach your audience with ease and grow your business.</h1>
                 </div>
-                <button className="start-advertising" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginLeft: '20px' }}>Start advertising &ensp; <BsArrowUpRight /></button>
+                <button onClick={()=>{navigate("/advertise")}} className="start-advertising" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginLeft: '20px' }}>Start advertising &ensp; <BsArrowUpRight /></button>
             </div>
             <div className="circle" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <div className="image-container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
